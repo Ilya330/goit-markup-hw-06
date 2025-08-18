@@ -4,9 +4,6 @@
   }
   /* page-header */
 
-  .page-header {
-    background-color: aqua;
-  }
   .logo.logo-top {
     margin-right: 120px;
   }
@@ -93,4 +90,8 @@
   .footer-social-text {
     text-align: start;
   }
-}
+
+  .modal-menu.is-open {
+  opacity: 0;
+  visibility: visible;
+  pointer-events: auto;}
