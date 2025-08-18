@@ -92,6 +92,8 @@
   }
 
   .modal-menu.is-open {
-  opacity: 0;
-  visibility: visible;
-  pointer-events: auto;}
+    opacity: 0;
+    visibility: visible;
+    pointer-events: auto;
+  }
+}
