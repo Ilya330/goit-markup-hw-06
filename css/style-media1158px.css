@@ -1,0 +1,106 @@
+/* @media screen and (min-width: 1158px) */
+
+@media screen and (min-width: 1158px) {
+  .container {
+    width: 1158px;
+  }
+
+  /* page-header */
+
+  .page-header {
+    background-color: red;
+  }
+  .logo.logo-top {
+    margin-right: 76px;
+  }
+
+  .header-burger-button {
+    display: none;
+  }
+  .nav-list {
+    display: flex;
+  }
+  .address-list {
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  /* strategies */
+
+  .strategies {
+    padding: 120px 0;
+  }
+  .strategies-list {
+    flex-wrap: nowrap;
+  }
+  /* .strategies-list-item {
+    width: calc((100% – 72px) / 4);
+  } */
+
+  .strategies-icon {
+    display: flex;
+    width: 100%;
+    height: 112px;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    background: #f4f4fd;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+  }
+  .strategies-icon svg {
+    margin: 0 auto;
+  }
+
+  .strategies-title-thrid {
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  /* team */
+
+  .team {
+    padding: 120px 0;
+  }
+
+  .team-list {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+  /* portfolio */
+
+  .portfolio {
+    padding: 120px 0;
+  }
+  .portfolio-list {
+    row-gap: 48px;
+  }
+
+  /* footer */
+
+  .page-footer {
+    padding: 100px 0;
+  }
+  .footer-logo {
+    margin-right: 120px;
+  }
+
+  .footer-social {
+    margin-right: 80px;
+  }
+  .container.footer-container {
+    flex-wrap: nowrap;
+
+    gap: 0;
+  }
+}
+
+@media screen and (min-resolution: 192dpi) {
+  .effective {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office@2x.jpg);
+  }
+}

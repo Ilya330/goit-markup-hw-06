@@ -24,6 +24,8 @@
 
     <!--css-->
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/style-media.css" />
+    <link rel="stylesheet" href="./css/style-media1158px.css" />
   </head>
 
   <body>
@@ -60,6 +62,11 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="header-burger-button">
+          <svg class="header-menu-svg-burger" width="24" height="24">
+            <use href="./images/icons.svg#icon-group"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
@@ -131,8 +138,8 @@
       </section>
 
       <!--our team-->
-      <section class="team">
-        <div class="container">
+      <section class="our-team">
+        <div class="container team">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list">
             <li class="team-list-item">
@@ -446,8 +453,8 @@
 
     <!--footer-->
     <footer class="page-footer">
-      <div class="container">
-        <div class="footer-logo">
+      <div class="container footer-container">
+        <div class="footer-logo footer-bar">
           <a class="logo logo-text" href="./index.html"
             >Web<span class="logo-footer">Studio</span></a
           >
@@ -457,7 +464,7 @@
             solutions.
           </p>
         </div>
-        <div class="footer-social">
+        <div class="footer-social footer-bar">
           <p class="footer-social-text">Social media</p>
           <ul class="footer-social-list">
             <li class="footer-social-item">
@@ -490,7 +497,7 @@
             </li>
           </ul>
         </div>
-        <div class="footer-subscribe">
+        <div class="footer-subscribe footer-bar">
           <p class="footer-social-text">Subscribe</p>
           <form class="footer-form">
             <label class="footer-form-label">
@@ -514,8 +521,7 @@
     </footer>
 
     <!-- modal-windows -->
-
-    <div class="modal-windows is-open">
+    <div class="modal-windows">
       <div class="modal-windows-wrapper">
         <button type="button" class="modal-form-button-close">
           <svg width="8" height="8" class="modal-form-svg-close">
