@@ -2,7 +2,8 @@
 
 @media screen and (min-width: 1158px) {
   .container {
-    width: 1158px;
+    max-width: 1158px;
+    padding: 0 15px;
   }
 
   /* page-header */
@@ -21,7 +22,24 @@
     flex-direction: row;
     gap: 40px;
   }
+  .address-list-item-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+  }
 
+  /* effective silotions */
+  .effective {
+    padding: 188px 0;
+  }
+  .effective-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    margin: 0 auto 48px;
+  }
   /* strategies */
 
   .strategies {
@@ -30,9 +48,6 @@
   .strategies-list {
     flex-wrap: nowrap;
   }
-  /* .strategies-list-item {
-    width: calc((100% – 72px) / 4);
-  } */
 
   .strategies-icon {
     display: flex;
@@ -64,6 +79,15 @@
     flex-wrap: nowrap;
     gap: 24px;
   }
+  .team-list-item {
+    width: 264px;
+  }
+  .workers-list {
+    margin: 0 16px;
+  }
+  .workers-list-items {
+    width: calc((100%-72px) / 4);
+  }
   /* portfolio */
 
   .portfolio {
@@ -72,7 +96,19 @@
   .portfolio-list {
     row-gap: 48px;
   }
+  .portfolio-list-up {
+    width: 360px;
+    flex: 0 0 calc((100% - 48px) / 3);
+  }
 
+  .portfolio-list-up {
+    box-shadow: none;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .portfolio-list-up:hover {
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+      0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  }
   /* footer */
 
   .page-footer {

@@ -1,11 +1,12 @@
 @media screen and (min-width: 768px) {
   .container {
-    min-width: 768px;
+    max-width: 768px;
   }
   /* page-header */
 
   .logo.logo-top {
     margin-right: 120px;
+    padding: 24px 0;
   }
   .header-burger-button {
     display: none;
@@ -26,9 +27,24 @@
   }
 
   .address-list-item-link {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
     padding: 0;
   }
 
+  /* effective silotions */
+  .effective {
+    padding: 112px 0;
+  }
+  .effective-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    max-width: 496px;
+    margin: 0 auto 36px;
+  }
   /* strategies */
 
   .strategies-list {
@@ -62,6 +78,9 @@
     gap: 24px;
     row-gap: 72px;
   }
+  .portfolio-list-up {
+    width: calc((100% - 24px) / 2);
+  }
 
   /* footer */
 
@@ -89,6 +108,10 @@
   }
   .footer-social-text {
     text-align: start;
+  }
+
+  .footer-form-email {
+    width: 264px;
   }
 
   .modal-menu.is-open {
