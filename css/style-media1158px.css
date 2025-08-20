@@ -32,6 +32,15 @@
   /* effective silotions */
   .effective {
     padding: 188px 0;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      image-set(
+        url(../images/background/people-office.jpg) 1x,
+        url(../images/background/people-office@2x.jpg) 2x
+      );
+    max-width: 1440px;
   }
   .effective-title {
     font-weight: 700;
@@ -48,7 +57,9 @@
   .strategies-list {
     flex-wrap: nowrap;
   }
-
+  .strategies-text {
+    font-weight: 400;
+  }
   .strategies-icon {
     display: flex;
     width: 100%;
@@ -71,7 +82,10 @@
 
   /* team */
 
-  .team {
+  .container.team {
+    width: 1158px;
+  }
+  .our-team {
     padding: 120px 0;
   }
 
@@ -114,6 +128,9 @@
   .page-footer {
     padding: 100px 0;
   }
+  .container.footer-container {
+    padding: 0 15px;
+  }
   .footer-logo {
     margin-right: 120px;
   }
@@ -125,15 +142,5 @@
     flex-wrap: nowrap;
 
     gap: 0;
-  }
-}
-
-@media screen and (min-resolution: 192dpi) {
-  .effective {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/people-office@2x.jpg);
   }
 }
